@@ -21,3 +21,11 @@ print(ans)
 #HiAdam
 
 #wow
+
+x = 3
+y =7
+
+if(x>y):
+    print('X is greater than y')
+elif (x<y):
+        print('Y is greater than x')
