@@ -1,18 +1,19 @@
-
+num1 = input('Enter your first number ')
+num2 = input('Enter your second number ')
  
 def math_Func(num1,num2):
-  result = num1 + num2
+  result = int(num1) + int(num2)
   return result
 
-ans = math_Func(80,100)
+ans = math_Func(num1,num2)
 
 print(ans)
 
 #Comment Test
 
 
-x = 3
-y =7
+x = input('Enter your first number ')
+y = input('Enter your second number ')
 
 if(x>y):
     print('X is greater than y')
