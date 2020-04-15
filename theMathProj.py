@@ -1,4 +1,4 @@
-
+from array import *
 import math
 
 # num1 = input('Enter your first number ')
@@ -57,6 +57,8 @@ import math
 # print(t)
 
 
+
+
 # class GetInputClass(object):
 #   def __init__(self):
 #     self.s = ""
@@ -72,19 +74,29 @@ import math
 # strObj.printString()
 
 
-c=50
-h=30
+# c=50
+# h=30
 
-value = []
-items=[x for x in input().split(',')]
+# value = []
+# items=[x for x in input().split(',')]
 
-for d in items:
-  value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
-  print(','.join(value))
+# for d in items:
+#   value.append(str(int(round(math.sqrt(2*c*float(d)/h)))))
+#   print(','.join(value))
+
+# value1 = input()
 
 
+# twoDArray = [int(x) for x in value1.split(',')]
+# rowNumber = twoDArray[0]
+# colNumber = twoDArray[1]
+# multilist = [[0 for col in range (colNumber)] for row in range(rowNumber)]
 
+# for row in range(rowNumber):
+#   for col in range(colNumber):
+#     multilist[row][col]= row*col
 
+# print(multilist)
 
       
 
